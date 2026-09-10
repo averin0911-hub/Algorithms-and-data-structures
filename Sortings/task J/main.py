@@ -1,8 +1,13 @@
 from functools import cmp_to_key
+from sys import stdin
 
 def compare(a, b):
-    return a - b
+    if int(a + b) < int(b + a):
+        return 1
+    else:
+        return -1
 
-l = [81, 34, 67, 21, 33, 54, 22, 8]
-l = sorted(l, key=cmp_to_key(compare))
-print(l)
+ls = [line.rstrip() for line in stdin]
+
+ls = sorted(ls, key=cmp_to_key(compare))
+print("".join(ls))
