@@ -164,4 +164,4 @@ nnaass
 ```c++
 NO
 ```
-[Решение](task%20I/main.cpp)
+[Решение](task%20I/main.py)
