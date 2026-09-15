@@ -2,8 +2,10 @@ from functools import cmp_to_key
 from sys import stdin
 
 def compare(a, b):
-    if int(a + b) < int(b + a):
+    if a + b < b + a:
         return 1
+    elif a + b == b + a:
+        return 0
     else:
         return -1
 
