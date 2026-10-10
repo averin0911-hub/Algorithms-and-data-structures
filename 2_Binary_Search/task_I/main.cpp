@@ -20,18 +20,12 @@ int Count(vector<long long>& arr, long long x) {
     }
 
     int start;
-    if (r == arr.size() || arr[r] == x) {
+    if (r != arr.size() || arr[r] == x) {
         start = r;
     }
     else {
         return 0;
     }
-
-
-
-
-
-
 
 
     l = -1;
