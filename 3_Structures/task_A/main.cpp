@@ -53,7 +53,6 @@ public:
 };
 
 int main(){
-    system("chcp 65001 > nul");
     Stack st;
     string command;
 
