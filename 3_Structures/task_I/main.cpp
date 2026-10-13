@@ -47,17 +47,17 @@ int main() {
         last = A[i];
         size_stack++;
 
-    if (i == A.size() - 1 && size_stack >= 3 && stack[size_stack - 2] == last) {
-        int j = size_stack - 3;
-        int summ = 2;
-        while (j >= 0 && stack[j] == last) {
-            summ++;
-            j--;
+        if (i == A.size() - 1 && size_stack >= 3 && stack[size_stack - 2] == last) {
+            int j = size_stack - 3;
+            int summ = 2;
+            while (j >= 0 && stack[j] == last) {
+                summ++;
+                j--;
+            }
+            if (summ >= 3) {
+                res += summ;
+            }
         }
-        if (summ >= 3) {
-            res += summ;
-        }
-    }
     }
 
     cout << res;
