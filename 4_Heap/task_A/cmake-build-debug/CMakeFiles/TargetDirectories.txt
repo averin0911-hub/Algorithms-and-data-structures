@@ -1,0 +1,3 @@
+/home/averinoleg/github/Algorithms-and-data-structures/4_Heap/task_A/cmake-build-debug/CMakeFiles/4_Heap.dir
+/home/averinoleg/github/Algorithms-and-data-structures/4_Heap/task_A/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/averinoleg/github/Algorithms-and-data-structures/4_Heap/task_A/cmake-build-debug/CMakeFiles/rebuild_cache.dir

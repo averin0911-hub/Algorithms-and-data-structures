@@ -1,0 +1,7 @@
+# ninja log v7
+2	94	1792686936264653179	CMakeFiles/4_Heap.dir/main.cpp.o.ddi	bc9f8bda661a6416
+94	98	1792686936357654398	CMakeFiles/4_Heap.dir/CXX.dd	db975c5b58d6f7e6
+94	98	1792686936357654398	CMakeFiles/4_Heap.dir/CXXModules.json	db975c5b58d6f7e6
+94	98	1792686936357654398	CMakeFiles/4_Heap.dir/main.cpp.o.modmap	db975c5b58d6f7e6
+98	449	1792686936361305338	CMakeFiles/4_Heap.dir/main.cpp.o	d6f6ffb63d943f4a
+449	493	1792686936711659037	4_Heap	ace688d88aecc2e9

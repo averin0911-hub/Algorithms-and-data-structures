@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/averinoleg/github/Algorithms-and-data-structures/4_Heap/task_A/cmake-build-debug",
+  "command": "/usr/bin/g++ -g -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles/4_Heap.dir/main.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/4_Heap.dir/main.cpp.o -c /home/averinoleg/github/Algorithms-and-data-structures/4_Heap/task_A/main.cpp",
+  "file": "/home/averinoleg/github/Algorithms-and-data-structures/4_Heap/task_A/main.cpp",
+  "output": "/home/averinoleg/github/Algorithms-and-data-structures/4_Heap/task_A/cmake-build-debug/CMakeFiles/4_Heap.dir/main.cpp.o"
+}
+]

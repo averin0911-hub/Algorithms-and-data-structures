@@ -47,7 +47,6 @@ int main() {
                 right.push_front(stoi(op.substr(2)));
             }
 
-
         }
     }
 
