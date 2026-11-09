@@ -3,3 +3,4 @@
 * [Тема 2. Бинарный поиск](2_Binary_Search) - [Условия](2_Binary_Search/README.md)
 * [Тема 3. Контейнеры (стек, очередь, дек)](3_Structures) - [Условия](3_Structures/README.md)
 * [Тема 4. Кучи](4_Heap) - [Условия](4_Heap/README.md)
+* [Тема 5. Бинарное дерево поиска](5_Binary_Search_Tree) - [Условия](5_Binary_Search_Tree/README.md)
