@@ -40,16 +40,16 @@ class BinarySearchTree {
         delete node;
     }
 
-    void _poor_mother(Node* node){
+    void _parent_having_1_child(Node* node){
         if (node == nullptr){
             return;
         }
-        _poor_mother(node->left);
+        _parent_having_1_child(node->left);
         if (node->left != nullptr && node->right == nullptr ||
             node->left == nullptr && node->right != nullptr){
             cout << node->data << '\n';
         }
-        _poor_mother(node->right);
+        _parent_having_1_child(node->right);
     }
 
 
@@ -62,8 +62,8 @@ public:
         root = _insert(root, key);
     }
 
-    void poor_mother(){ // Нищая мать, которая кормит одного ребенка
-        _poor_mother(root);
+    void parent_having_1_child(){ 
+        _parent_having_1_child(root);
     }
 
 };
@@ -81,7 +81,7 @@ int main() {
         tree.insert(x);
     }
 
-    tree.poor_mother();
+    tree.parent_having_1_child();
 
     return 0;
 }

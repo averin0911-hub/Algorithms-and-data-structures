@@ -43,7 +43,7 @@ class BinarySearchTree {
         else if (key > node->data) {
             node->right = _remove(node->right, key);
         }
-        else if (!(node->left == nullptr) && !(node->right == nullptr)) {
+        else if (node->left != nullptr && node->right != nullptr) {
             node->data = find_max_node(node->left)->data;
             node->left = _remove(node->left, node->data);
         }

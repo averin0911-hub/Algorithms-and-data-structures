@@ -40,15 +40,15 @@ class BinarySearchTree {
         delete node;
     }
 
-    void _mother_of_many_children(Node* node){
+    void _parent_having_2_childs(Node* node){
         if (node == nullptr){
             return;
         }
-        _mother_of_many_children(node->left);
+        _parent_having_2_childs(node->left);
         if (node->left != nullptr && node->right != nullptr){
             cout << node->data << '\n';
         }
-        _mother_of_many_children(node->right);
+        _parent_having_2_childs(node->right);
     }
 
 
@@ -61,8 +61,8 @@ public:
         root = _insert(root, key);
     }
 
-    void mother_of_many_children(){
-        _mother_of_many_children(root);
+    void parent_having_2_childs(){
+        _parent_having_2_childs(root);
     }
 
 };
@@ -80,7 +80,7 @@ int main() {
         tree.insert(x);
     }
 
-    tree.mother_of_many_children();
+    tree.parent_having_2_childs();
 
     return 0;
 }

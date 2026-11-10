@@ -44,11 +44,11 @@ class BinarySearchTree {
         if (node == nullptr) {
             return;
         }
+        _print_leafs(node->left);
         if (node->left == nullptr && node->right == nullptr) {
             cout << node->data << '\n';
             return;
         }
-        _print_leafs(node->left);
         _print_leafs(node->right);
     }
 
